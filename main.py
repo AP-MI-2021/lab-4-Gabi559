@@ -10,7 +10,7 @@ def citire(n, lst):
     n = input("Dati numarul de numere ce doriti sa fie in lista")
     n = int(n)
     for i in range(0, n):
-        lst.append(input("Urmatorul numar din lista este"))
+        lst.append(int(input("Urmatorul numar din lista este")))
     return lst
 
 
